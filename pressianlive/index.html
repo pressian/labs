@@ -10,17 +10,110 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
   </head>
   <body>
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Pressian Live!
-          </h1>
-          <h2 class="subtitle">
-            Primary subtitle
-          </h2>
+    <nav class="nav has-shadow">
+      <div class="container">
+        <div class="nav-left">
+          <a class="nav-item">
+            <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+          </a>
+          <a class="nav-item is-tab is-hidden-mobile is-active" href="index.html">첫화면</a>
+          <a class="nav-item is-tab is-hidden-mobile" href="forum.html">게시판</a>
+        </div>
+        <span class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="nav-right nav-menu">
+          <a class="nav-item is-tab is-hidden-tablet is-active">Home</a>
+          <a class="nav-item is-tab is-hidden-tablet">게시판</a>
+          <a class="nav-item is-tab">
+            <figure class="image is-16x16" style="margin-right: 8px;">
+              <img src="http://bulma.io/images/jgthms.png">
+            </figure>
+            Profile
+          </a>
+          <a class="nav-item is-tab">Log out</a>
         </div>
       </div>
-    </section>
+    </nav>
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="http://bulma.io/images/placeholders/96x96.png" alt="Image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              <a>#css</a> <a>#responsive</a>
+              <br>
+              <small>11:09 PM - 1 Jan 2016</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="http://bulma.io/images/placeholders/96x96.png" alt="Image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              <a>#css</a> <a>#responsive</a>
+              <br>
+              <small>11:09 PM - 1 Jan 2016</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            프레시안 협동조합. 어쩌고 저쩌고. 라이선스 이렇다고.
+          </p>
+          <p>
+            <a class="icon" href="https://github.com/jgthms/bulma">
+              <i class="fa fa-github"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
